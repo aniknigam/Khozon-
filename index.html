@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khozon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+  <style>
+    .image:hover {
+      transform: scale(1.5);
+      transition: 0.5s;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    
+            text-align: center;
+       
+
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <img src="img/k.png" alt="" style="width: 40px; height:40px; border-radius:100%">
+      <a class="navbar-brand" href="#">Khozon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blogs
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="video.html" target="_blank"> What is Khozon?</a></li>
+            <li><a class="dropdown-item" href="blogpage.html">Blog Page</a></li>
+          </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sign IN
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="signin.html" target="_blank">I am a Customer</a></li>
+              <li><a class="dropdown-item" href="signinserviceprovider.html">I am Service Provider</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Tutorials</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Register Here
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="registercustomer.html" target="_blank">I am a Customer</a></li>
+              <li><a class="dropdown-item" href="registerserviceprovider.html">I am Service Provider</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Tutorials</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item" active>
+            <a class="nav-link " aria-current="page" href="contact.html">Contact Us</a>
+          </li>
+
+        </ul>
+
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/cook1.jpg" class="d-block w-100" alt="" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Services</h5>
+          <p class="text-dark">We Provide these services.</p>
+          <button class="btn btn-primary">Cook</button>
+          <button class="btn btn-danger">Maid</button>
+          <button class="btn btn-success">CareTaker</button>
+          <button class="btn btn-dark">Babsitter</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/maid.png" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Services</h5>
+          <p class="text-dark">We Provide these services.</p>
+          <button class="btn btn-primary">Cook</button>
+          <button class="btn btn-danger">Maid</button>
+          <button class="btn btn-success">CareTaker</button>
+          <button class="btn btn-dark">Babsitter</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/BabySitter.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark">Services</h5>
+          <p class="text-dark">We Provide these services.</p>
+          <button class="btn btn-primary">Cook</button>
+          <button class="btn btn-danger">Maid</button>
+          <button class="btn btn-success">CareTaker</button>
+          <button class="btn btn-dark">Babsitter</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="bg-dark px-3 mb-4"></div>
+
+
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why only Khozon?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 responsive">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="img/service.jfif" alt="">
+        </div>
+        <h3 class="fs-2">Best Services</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+          probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="img/trust.jfif" alt="">
+        </div>
+        <h3 class="fs-2">Trust Worthy workers</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+          probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="img/affordable.jfif" alt="">
+        </div>
+        <h3 class="fs-2">Affordable</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+          probably just keep going until we run out of words.</p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          Call to action
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="container"><img src="img/quality.jpg" alt="" class="responsive"></div>
+
+
+  <div class="conatiner">
+    <hr>
+  </div>
+
+  <div class=" text-dark">
+    <footer class=" py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/profile.php?id=100086516711996"><img
+                src="img/facebook.jfif" alt="" style="width: 50px; height:40px; border-radius:100%" class="image"></a>
+          </li>
+          <li class="ms-3"><a class="text-muted " href="https://instagram.com/khoz.on?igshid=YmMyMTA2M2Y="><img
+                src="img/insta.jfif" alt="" style="width: 40px; height:40px; border-radius:100%" class="image"></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><img src="img/twitter.jfif" alt=""
+                style="width: 45px; height:40px; border-radius:100%" class="image"></a></li>
+        </ul>
+        <div class="container">© 2022 Company, Inc</div>
+      </ul>
+
+    </footer>
+  </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- <div class="container px-4 py-5" id="featured-3">
+  <h2 class="pb-2 border-bottom">Columns with icons</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+      </div>
+      <h3 class="fs-2">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Call to action
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+      </div>
+      <h3 class="fs-2">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Call to action
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      </div>
+      <h3 class="fs-2">Featured title</h3>
+      <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+      <a href="#" class="icon-link d-inline-flex align-items-center">
+        Call to action
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+  </div>
+</div> -->
