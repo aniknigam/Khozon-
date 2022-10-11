@@ -7,106 +7,7 @@
     <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-    <style>
-        body {
-            background-color: rgb(245, 245, 246);
-        }
-
-        .image:hover {
-            transform: scale(1.5);
-            transition: 0.5s;
-        }
-
-        img {
-            width: 140px;
-            height: 140px;
-            border-radius: 100%;
-            padding: 10px;
-            float: left;
-        }
-
-        h1 {
-            font-size: 60px;
-        }
-
-        .main {
-            height: 25
-            vh;
-            border-radius: 2px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-
-        }
-
-        .main1 {
-            height: 35vh;
-            border-radius: 2px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-
-        }
-
-        .item1 {
-            width: 170px;
-            height: 145px;
-            background-color: rgb(27, 104, 192);
-            margin: 12px;
-            border-radius: 10px;
-            color: white;
-            font-weight: bolder;
-            padding: 5px;
-            padding-top: 20px;
-            text-align: center;
-            align-items: center;
-        }
-
-        .item2 {
-            width: 170px;
-            height: 145px;
-            background-color: rgb(197, 17, 17);
-            margin: 12px;
-            border-radius: 10px;
-            color: white;
-            font-weight: bolder;
-            padding: 5px;
-            padding-top: 20px;
-            text-align: center;
-            align-items: center;
-        }
-
-        .item3 {
-            width: 170px;
-            height: 145px;
-            background-color: rgb(150, 74, 188);
-            margin: 12px;
-            border-radius: 10px;
-            color: white;
-            font-weight: bolder;
-            padding: 5px;
-            padding-top: 20px;
-            text-align: center;
-            align-items: center;
-        }
-
-        .item4 {
-            width: 170px;
-            height: 145px;
-            background-color: rgb(26, 153, 52);
-            margin: 12px;
-            border-radius: 10px;
-            color: white;
-            font-weight: bolder;
-            padding: 5px;
-            padding-top: 20px;
-            text-align: center;
-            align-items: center;
-        }
-        b{
-            color: black;
-        }
-    </style>
+        <link rel="stylesheet" href="dashboard.css">
 </head>
 
 <body>
@@ -193,51 +94,53 @@
         </div>
     </nav>
     <!-- nav bar end -->
-    <div class="container my-3" style="text-align: center;">
-        <img src="img/aniket.jpg" alt="">
-        <h1>Aniket Nigam</h1>
-    </div>
-
-
-    <div class="container main my-5">
-        <div class="item1 item">
-            <p><b>Phone No:</b>6362263616</p>
-            <br>
+    <div class="container">
+        <div class="container my-3" style="text-align: center;">
+            <img src="img/aniket.jpg" alt="">
+            <h1>Aniket Nigam</h1>
         </div>
-        <div class="item2 item">
-            <p><b>Address:</b> IIM, Near Baba Super Store, Kidzee</p>
-        </div>
-
-        <div class="item3 item">
-            <p>
-                <b>Profession:</b>
-                
-                1.Cook
-                2.Babysitter
-            </p>
-        </div>
-        <div class="item4 item">
-            <p> <b>Status:</b> Available</p>
-        </div>
-    </div>
-
-
     
-    <div class="container main1 my-5">
-       
-        <div class="item1 item">
-            <p>   <b>Experience:</b><br> 2months</p>
-            <br>
+    
+        <div class="container main my-5">
+            <div class="item1 item">
+                <p><b>Phone No:</b>6362263616</p>
+                <br>
+            </div>
+            <div class="item2 item">
+                <p><b>Address:</b> IIM, Near Baba Super Store, Kidzee</p>
+            </div>
+    
+            <div class="item3 item">
+                <p>
+                    <b>Profession:</b>
+                    
+                    1.Cook
+                    2.Babysitter
+                </p>
+            </div>
+            <div class="item4 item">
+                <p> <b>Status:</b> Available</p>
+            </div>
         </div>
-        <div class="item2 item">
-            <p> <b>Cook Price: </b> <br> 10k/month</p>
+    
+    
+        
+        <div class="container main1 my-5">
+           
+            <div class="item1 item">
+                <p>   <b>Experience:</b><br> 2months</p>
+                <br>
+            </div>
+            <div class="item2 item">
+                <p> <b>Cook Price: </b> <br> 10k/month</p>
+            </div>
+    
         </div>
-
+    
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Book you service</button>
+          </div>
     </div>
-
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Book you service</button>
-      </div>
 
       <div class=" text-dark">
         <footer class=" py-3 my-4">
