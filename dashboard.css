@@ -1,98 +1,25 @@
-body {
-    background-color: rgb(245, 245, 246);
-}
-
-.image:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
-}
-
-img {
-    width: 140px;
-    height: 140px;
+img{
+    height: 120px;
+    width: 120px;
     border-radius: 100%;
-    padding: 10px;
     float: left;
 }
 
-h1 {
-    font-size: 60px;
-}
-
-.main {
-    height: 25
-    vh;
-    border-radius: 2px;
+.parent{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+.child{
+    flex-basis: 20%;
+    box-sizing: border-box;
 
 }
-
-.main1 {
-    height: 35vh;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+h2{
+    font-size: 40px;
+    padding: 10px;
+}
+.dash{
+     padding-left: 30px;
 }
 
-.item1 {
-    width: 150px;
-    height: 145px;
-    background-color: rgb(27, 104, 192);
-    margin: 12px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bolder;
-    padding: 5px;
-    padding-top: 20px;
-    text-align: center;
-    align-items: center;
-}
-
-.item2 {
-    width: 138px;
-    height: 145px;
-    background-color: rgb(197, 17, 17);
-    margin: 12px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bolder;
-    padding: 5px;
-    padding-top: 20px;
-    text-align: center;
-    align-items: center;
-}
-
-.item3 {
-    width: 138px;
-    height: 145px;
-    background-color: rgb(150, 74, 188);
-    margin: 12px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bolder;
-    padding: 5px;
-    padding-top: 20px;
-    text-align: center;
-    align-items: center;
-}
-
-.item4 {
-    width: 138px;
-    height: 145px;
-    background-color: rgb(26, 153, 52);
-    margin: 12px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bolder;
-    padding: 5px;
-    padding-top: 20px;
-    text-align: center;
-    align-items: center;
-}
-b{
-    color: black;
-}
